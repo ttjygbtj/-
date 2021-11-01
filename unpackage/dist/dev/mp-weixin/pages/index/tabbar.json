@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "宅家学IT",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "news": "/pages/index/news",
+    "me": "/pages/index/me"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#807ae5",
+        "navigationBarTextStyle": "white",
+        "app-plus": {
+          "bounce": "none",
+          "softinputNavBar": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/news/news",
+      "style": {
+        "navigationBarTitleText": "小智"
+      }
+    },
+    {
+      "path": "pages/index/tabbar",
+      "style": {
+        "navigationBarTitleText": "宅家学IT",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/register",
+      "style": {
+        "navigationBarTitleText": "注册账号",
+        "navigationBarBackgroundColor": "#807ae5",
+        "navigationBarTextStyle": "white",
+        "app-plus": {
+          "bounce": "none",
+          "softinputNavBar": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/login/resetpasswd",
+      "style": {
+        "navigationBarTitleText": "重置密码",
+        "navigationBarBackgroundColor": "#807ae5",
+        "navigationBarTextStyle": "white",
+        "app-plus": {
+          "bounce": "none",
+          "softinputNavBar": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/me/aboutMe",
+      "style": {
+        "navigationBarTitleText": "关于小智",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/timeline",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "tn_components",
+      "pages": [
+        {
+          "path": "pano",
+          "style": {}
+        },
+        {
+          "path": "bggrad",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "bgcolor",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "ancube",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "anloading",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mimicry",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mapLocus",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "charts",
+          "style": {
+            "navigationBarTitleText": "图表展示"
+          }
+        },
+        {
+          "path": "poster",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "discern",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "sign",
+          "style": {
+            "navigationBarTitleText": "电子签名"
+          }
+        },
+        {
+          "path": "district",
+          "style": {
+            "navigationBarTitleText": "行政区图"
+          }
+        },
+        {
+          "path": "search",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "便捷查询"
+          }
+        },
+        {
+          "path": "openDocument",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "文档预览"
+          }
+        },
+        {
+          "path": "company",
+          "style": {
+            "navigationBarTitleText": "自定义相机"
+          }
+        },
+        {
+          "path": "timeline",
+          "style": {
+            "navigationBarTitleText": "时间轴"
+          }
+        },
+        {
+          "path": "guide",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "引导页面"
+          }
+        },
+        {
+          "path": "request",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "模拟数据加载"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
